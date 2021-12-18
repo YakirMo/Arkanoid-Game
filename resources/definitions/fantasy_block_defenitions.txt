@@ -1,0 +1,13 @@
+# default values for blocks
+default height:90 width:70  hit_points:1
+
+# block definitions
+bdef symbol:b hit_points:4 fill:image(block_images/blue.jpg)
+bdef symbol:a hit_points:4 fill:image(block_images/archer.jpg)
+bdef symbol:n hit_points:4 fill:image(block_images/ninja.jpg)
+bdef symbol:w hit_points:4  fill:image(block_images/war.jpg)
+bdef symbol:v hit_points:4  fill:image(block_images/navy.jpg)
+bdef symbol:z hit_points:10  fill:image(block_images/boss.jpg)
+
+# spacers definitions
+sdef symbol:- width:30

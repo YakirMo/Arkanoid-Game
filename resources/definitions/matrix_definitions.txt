@@ -1,0 +1,9 @@
+# default values for Into The Matrix
+default height:70 width:85 stroke:color(black)
+
+# block definitions
+bdef symbol:s hit_points:2 fill-1:image(block_images/neo.jpg) fill-2:image(block_images/smith.jpg)
+bdef symbol:l hit_points:2 fill-1:image(block_images/trin.jpg) fill-2:image(block_images/morph.jpg)
+
+# spacers definitions
+sdef symbol:- width:40

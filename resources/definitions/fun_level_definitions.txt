@@ -1,0 +1,51 @@
+# Level 1
+# Into The Matrix
+
+
+START_LEVEL
+level_name:Into The Matrix
+ball_velocities:60,6 -45,6 -30,5 60,6, 45,6
+background:image(background_images/matrix.jpg)
+paddle_speed:7
+paddle_width:200
+block_definitions:definitions/matrix_definitions.txt
+blocks_start_x:25
+blocks_start_y:40
+row_height:50
+num_blocks:16
+START_BLOCKS
+-l-s-s-s-l-
+-
+l-s-s-s-s-l-
+-
+-l-s-s-s-l-
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Fantasy World
+
+
+START_LEVEL
+level_name:Fantasy World
+ball_velocities:60,8 30,8, -30,8 -60,8
+background:image(background_images/fanworld.jpg)
+paddle_speed:8
+paddle_width:175
+block_definitions:definitions/fantasy_block_defenitions.txt
+blocks_start_x:25
+blocks_start_y:40
+row_height:70
+num_blocks:23
+START_BLOCKS
+-b--a--n--w--v--
+-v--w--n--a--b--
+-z------z------z--
+-b--a--n--w--v--
+-v--w--n--a--b--
+
+
+END_BLOCKS
+END_LEVEL
